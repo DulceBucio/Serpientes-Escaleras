@@ -11,15 +11,30 @@ class Player {
     int playerNumber;
     int square;
 public:
+    //Constructors
     Player() = default;
-    Player(const int &playerNumber, const int &square): playerNumber(playerNumber), square(square) {}
-    Player(const Player &playerCopy): playerNumber(playerCopy.playerNumber), square(playerCopy.square) {}
+
+    Player(const int &playerNumber, const int &square) : playerNumber(playerNumber), square(square) {}
+
+    Player(const Player &playerCopy) : playerNumber(playerCopy.playerNumber), square(playerCopy.square) {}
+
+    //Destructor
     ~Player();
-    int getPlayerNumber();
-    int getSquare();
-    void setPlayerNumber(int);
-    void setSquare(int);
+
+    //Accessors
+    const int &getPlayerNumber() { return playerNumber; }
+
+    const int &getSquare() { return square; }
+
+    //Mutators
+    void setPlayerNumber(const int &playerNumber) { this->playerNumber = playerNumber; }
+
+    void setSquare(const int &square) { this->square = square; }
 };
+
+Player::~Player()
+{
+}
 
 
 #endif //SERPIENTES_ESCALERAS_PLAYER_H
