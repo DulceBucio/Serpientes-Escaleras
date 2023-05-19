@@ -6,5 +6,14 @@
 using namespace std;
 
 Board::Board() {
-    for
+    char generalBox = 'N';
+    boxes = vector<char>(30, 'N');
 }
+
+
+void Board::printBoard() {
+    for (vector<char>::const_iterator it1 = boxes.begin(); it1 != boxes.end(); it1++){
+        cout << *it1 << "\n";
+    }
+}
+

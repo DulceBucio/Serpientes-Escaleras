@@ -1,6 +1,8 @@
 # ninja log v5
 1	57	7062316987467593	CMakeFiles/Serpientes_Escaleras.dir/snakes.cpp.obj	f0c6e7e2f2150992
-0	65	7062320439601132	CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj	9686e3f288226a55
-0	152	7062321124743673	build.ninja	dbf3e8d5d461aa65
-1	331	7062321128677489	CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj	9686e3f288226a55
 332	427	7062321129614988	Serpientes-Escaleras.exe	c965fd123e17f66c
+3	332	7062437109769347	CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj	9686e3f288226a55
+0	152	7062437721027690	build.ninja	dbf3e8d5d461aa65
+1	179	7062437721027690	build.ninja	dbf3e8d5d461aa65
+2	349	7062437725313200	CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.obj	678d3df074fa86fe
+349	449	7062437726280854	Serpientes-Escaleras.exe	6efae9205db98a37
