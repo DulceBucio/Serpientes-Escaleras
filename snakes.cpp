@@ -9,5 +9,8 @@
 using namespace std;
 
 int main() {
+    srand(time(0)); // Initializes the seed for the random number generator based on the current time
+    Dice D1;
+    D1.roll();
     return 0;
 };

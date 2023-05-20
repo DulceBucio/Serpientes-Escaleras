@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.o" "CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.o" "CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.o" -o Serpientes-Escaleras 
