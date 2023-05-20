@@ -11,3 +11,6 @@ void MyGame::setPlayers() {
     players[1].setPlayerNumber(2);
 }
 
+void MyGame::newTurn() {
+
+}

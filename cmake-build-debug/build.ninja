@@ -61,6 +61,12 @@ build CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.obj: CXX_COMPILER__Serpiente
   OBJECT_DIR = CMakeFiles\Serpientes-Escaleras.dir
   OBJECT_FILE_DIR = CMakeFiles\Serpientes-Escaleras.dir
 
+build CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.obj: CXX_COMPILER__Serpientes-Escaleras_Debug C$:/Users/yasmi/OneDrive/Documents/2do$ semestre/poo$ 2/tarea1/Serpientes-Escaleras/Dice.cpp || cmake_object_order_depends_target_Serpientes-Escaleras
+  DEP_FILE = CMakeFiles\Serpientes-Escaleras.dir\Dice.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Serpientes-Escaleras.dir
+  OBJECT_FILE_DIR = CMakeFiles\Serpientes-Escaleras.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Serpientes-Escaleras
@@ -69,7 +75,7 @@ build CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.obj: CXX_COMPILER__Serpiente
 #############################################
 # Link the executable Serpientes-Escaleras.exe
 
-build Serpientes-Escaleras.exe: CXX_EXECUTABLE_LINKER__Serpientes-Escaleras_Debug CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.obj
+build Serpientes-Escaleras.exe: CXX_EXECUTABLE_LINKER__Serpientes-Escaleras_Debug CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.obj CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Serpientes-Escaleras.dir

@@ -11,17 +11,14 @@ class Dice {
     int faces;
 
 public:
-    //Constructors
+    //Constructor
     Dice(const int &faces): faces(faces) { this->faces = 6;}
     Dice(const Dice &facesCopy): faces(facesCopy.faces) {}
     //Destructor
-    ~Dice();
+    ~Dice() {};
     //Method that generates a random number between 1 and the total number of faces
     int roll();
 };
 
-Dice::~Dice()
-{
-}
 
 #endif //SERPIENTES_ESCALERAS_DICE_H
