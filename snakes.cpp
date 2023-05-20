@@ -8,6 +8,7 @@
 using namespace std;
 
 int main() {
-    
+    Board B1;
+    B1.getTipo(24);
     return 0;
 };

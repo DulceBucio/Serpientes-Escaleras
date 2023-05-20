@@ -3,3 +3,11 @@
 //
 
 #include "MyGame.h"
+#include <iostream>
+using namespace std;
+
+void MyGame::setPlayers() {
+    players[0].setPlayerNumber(1);
+    players[1].setPlayerNumber(2);
+}
+
