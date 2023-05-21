@@ -1,5 +1,8 @@
 //
-// Created by Dulce Nahomi Bucio Rivas | A01425284 on 19/05/2023.
+// Created by
+// Dulce Nahomi Bucio Rivas | A01425284
+// Desirée Espinosa Contreras | A01425162
+// TC1030 - 19/05/2023
 //
 
 #ifndef SERPIENTES_ESCALERAS_DICE_H
@@ -20,7 +23,7 @@ public:
     Dice(const Dice &facesCopy): faces(facesCopy.faces) {}
     //Destructor
     ~Dice() {};
-    //Method that generates a random number between 1 and the total number of faces
+    //Method
     int roll();
 };
 

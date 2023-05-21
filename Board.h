@@ -1,6 +1,10 @@
 //
-// Created by Dulce Nahomi Bucio Rivas | A01425284 on 19/05/2023.
+// Created by
+// Dulce Nahomi Bucio Rivas | A01425284
+// Desirée Espinosa Contreras | A01425162
+// TC1030 - 19/05/2023
 //
+
 
 #ifndef SERPIENTES_ESCALERAS_BOARD_H
 #define SERPIENTES_ESCALERAS_BOARD_H
@@ -11,10 +15,15 @@ using namespace std;
 class Board {
     vector<char> boxes;
 public:
+    // Constructors
     Board();
+    Board(const Board &boardCopy): boxes(boardCopy.boxes) { };
+    // Destructor
     ~Board() {};
-    void printBoard();
+    // Accessor
     char getType(int);
+    // Method
+    void printBoard();
 };
 
 

@@ -132,6 +132,7 @@ CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras\MyGame.h \
  C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras\Player.h \
  C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras\Board.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
@@ -140,5 +141,4 @@ CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
  C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras\Dice.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\Serpientes-Escaleras\MyGame.h
+ C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime
