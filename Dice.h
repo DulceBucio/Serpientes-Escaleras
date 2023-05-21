@@ -16,7 +16,7 @@ class Dice {
 
 public:
     //Constructors
-    Dice(const int& faces = 6) : faces(faces) {}
+    Dice(const int &faces = 6) : faces(faces) {}
     Dice(const Dice &facesCopy): faces(facesCopy.faces) {}
     //Destructor
     ~Dice() {};
