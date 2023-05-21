@@ -13,21 +13,23 @@ class Player {
     int square;
 public:
     //Constructors
-    Player(int, int);
     Player() = default;
+    Player(int, int);
 
     //Destructor
     ~Player();
 
     //Accessors
-    const int &getPlayerNumber() { return playerNumber; }
+    int getPlayerNumber() { return playerNumber; }
 
-    const int &getSquare() { return square; }
+    int getSquare() { return square; }
 
     //Mutators
-    void setPlayerNumber(const int &playerNumber) { this->playerNumber = playerNumber; }
+    void setPlayerNumber(int playerNumber) { this->playerNumber = playerNumber; }
 
-    void setSquare(const int &square) { this->square = square; }
+    void setSquare(int square) { this->square = square; }
+
+    void printPlayer();
 };
 
 

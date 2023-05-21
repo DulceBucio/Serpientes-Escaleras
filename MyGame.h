@@ -17,10 +17,12 @@ class MyGame {
     Board board;
 public:
     MyGame();
-    const int &getTurn() {return turn;}
+    int getTurn() {return turn;}
     void setTurn(int turn) {this ->turn = turn;}
     void setMaxTurns(int maxTurns) {this ->maxTurns = maxTurns;}
-    void newTurn();
+    void printTurn(Player &player);
+    void playGame();
+    void start();
 };
 
 

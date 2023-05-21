@@ -12,5 +12,9 @@ Player::Player(int playerNumber, int square) {
 }
 
 Player::~Player() {
+}
 
+void Player::printPlayer() {
+    cout << playerNumber << " ";
+    cout << square << " ";
 }

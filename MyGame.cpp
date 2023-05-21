@@ -12,33 +12,40 @@ MyGame::MyGame() {
     Board board;
     players[0].setPlayerNumber(1);
     players[1].setPlayerNumber(2);
-    players[0].setSquare(0);
-    players[1].setSquare(0);
+    players[0].setSquare(1);
+    players[1].setSquare(1);
 }
 
 
-void MyGame::newTurn() {
+void MyGame::printTurn(Player &player) {
     srand(time(0));
+    cout << turn << " ";
     Dice dice;
-    if (turn%2 == 1) {
-        currentPlayer = players[0];
-    }
-    else if (turn%2 == 0) {
-        currentPlayer = players[1];
-    }
-    int initialSquare = currentPlayer.getSquare();
+    player.printPlayer();
+    int initialSquare = player.getSquare();
     int currentDice = dice.roll();
-    currentPlayer.setSquare(currentPlayer.getSquare()+currentDice);
-    char currentType = board.getType(currentPlayer.getSquare());
+    player.setSquare(player.getSquare()+currentDice);
+    char currentType = board.getType(player.getSquare());
     if (currentType == 'S') {
-        currentPlayer.setSquare(currentPlayer.getSquare()-3);
+        player.setSquare(player.getSquare()-3);
     }
     if (currentType == 'L') {
-        currentPlayer.setSquare(currentPlayer.getSquare()+3);
+        player.setSquare(player.getSquare()+3);
     }
 
-    int finalSquare = currentPlayer.getSquare();
-    cout << turn << " " << currentPlayer.getPlayerNumber() << " " << initialSquare << " " << currentDice << " " << currentType << " " << finalSquare << "\n";
+    int finalSquare = player.getSquare();
+    cout << currentDice << " " << currentType << " " << finalSquare << "\n";
     setTurn(getTurn()+1);
 }
 
+
+void MyGame::playGame() {
+    if (turn%2 == 1) { printTurn(players[0]); }
+    else if (turn%2 == 0) { printTurn(players[1]); }
+
+}
+
+void MyGame::start() {
+    playGame();
+
+}

@@ -20,8 +20,7 @@ int main() {
         cin >> answer;
         cin.ignore();
         if (answer == 'C') {
-            currentGame.newTurn();
-            //currentGame.setTurn(currentGame.getTurn());
+            currentGame.start();
         }
         else if (answer == 'E') {
             cout << "-- GAME OVER --" << "\n";

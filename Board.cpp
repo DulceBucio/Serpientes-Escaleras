@@ -7,7 +7,7 @@ using namespace std;
 
 Board::Board() {
     char generalBox = 'N';
-    boxes = vector<char>(30, 'N');
+    boxes = vector<char>(31, 'N');
     boxes[2] = 'S';
     boxes[13] = 'S';
     boxes[24] = 'S';
