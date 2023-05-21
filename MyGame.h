@@ -22,6 +22,7 @@ public:
     void setMaxTurns(int maxTurns) {this ->maxTurns = maxTurns;}
     void printTurn(Player &player);
     void playGame();
+    void checkWinner();
     void start();
 };
 

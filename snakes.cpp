@@ -10,7 +10,6 @@
 using namespace std;
 
 int main() {
-    // srand(time(0)); // Initializes the seed for the random number generator based on the current time
     bool activeGame;
     activeGame = true;
     cout << "Press C to continue next turn, or E to end the game: \n";
@@ -23,7 +22,8 @@ int main() {
             currentGame.start();
         }
         else if (answer == 'E') {
-            cout << "-- GAME OVER --" << "\n";
+            cout << "Thanks for playing!!! \n";
+            cout << "-- GAME OVER -- \n";
             activeGame = false;
         }
         else {
