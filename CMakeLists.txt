@@ -3,5 +3,5 @@ project(Serpientes-Escaleras)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Serpientes-Escaleras snakes.cpp Board.cpp Dice.cpp)
+add_executable(Serpientes-Escaleras snakes.cpp Board.cpp Dice.cpp MyGame.cpp Player.cpp Player.h)
 

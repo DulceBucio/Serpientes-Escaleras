@@ -1,12 +1,18 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.o"
-  "CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.o.d"
-  "CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.o"
-  "CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.o.d"
-  "CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.o"
-  "CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.o.d"
-  "Serpientes-Escaleras"
+  "CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.obj"
+  "CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.obj.d"
+  "CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.obj"
+  "CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.obj.d"
+  "CMakeFiles/Serpientes-Escaleras.dir/MyGame.cpp.obj"
+  "CMakeFiles/Serpientes-Escaleras.dir/MyGame.cpp.obj.d"
+  "CMakeFiles/Serpientes-Escaleras.dir/Player.cpp.obj"
+  "CMakeFiles/Serpientes-Escaleras.dir/Player.cpp.obj.d"
+  "CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj"
+  "CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj.d"
+  "Serpientes-Escaleras.exe"
+  "Serpientes-Escaleras.exe.manifest"
   "Serpientes-Escaleras.pdb"
+  "libSerpientes-Escaleras.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

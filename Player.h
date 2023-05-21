@@ -6,17 +6,15 @@
 #define SERPIENTES_ESCALERAS_PLAYER_H
 #include <iostream>
 using namespace std;
+#pragma once
 
 class Player {
     int playerNumber;
     int square;
 public:
     //Constructors
+    Player(int, int);
     Player() = default;
-
-    Player(const int &playerNumber, const int &square) : playerNumber(playerNumber), square(square) {}
-
-    Player(const Player &playerCopy) : playerNumber(playerCopy.playerNumber), square(playerCopy.square) {}
 
     //Destructor
     ~Player();
@@ -31,10 +29,6 @@ public:
 
     void setSquare(const int &square) { this->square = square; }
 };
-
-Player::~Player()
-{
-}
 
 
 #endif //SERPIENTES_ESCALERAS_PLAYER_H

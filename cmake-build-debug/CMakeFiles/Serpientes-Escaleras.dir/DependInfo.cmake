@@ -8,9 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/desireeespinosa/Library/CloudStorage/OneDrive-Personal/Escuela(mac)/Semestre 2/TC1030/Tareas/T1/Serpientes-Escaleras/Board.cpp" "CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.o" "gcc" "CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.o.d"
-  "/Users/desireeespinosa/Library/CloudStorage/OneDrive-Personal/Escuela(mac)/Semestre 2/TC1030/Tareas/T1/Serpientes-Escaleras/Dice.cpp" "CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.o" "gcc" "CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.o.d"
-  "/Users/desireeespinosa/Library/CloudStorage/OneDrive-Personal/Escuela(mac)/Semestre 2/TC1030/Tareas/T1/Serpientes-Escaleras/snakes.cpp" "CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.o" "gcc" "CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.o.d"
+  "C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras/Board.cpp" "CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.obj" "gcc" "CMakeFiles/Serpientes-Escaleras.dir/Board.cpp.obj.d"
+  "C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras/Dice.cpp" "CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.obj" "gcc" "CMakeFiles/Serpientes-Escaleras.dir/Dice.cpp.obj.d"
+  "C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras/MyGame.cpp" "CMakeFiles/Serpientes-Escaleras.dir/MyGame.cpp.obj" "gcc" "CMakeFiles/Serpientes-Escaleras.dir/MyGame.cpp.obj.d"
+  "C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras/Player.cpp" "CMakeFiles/Serpientes-Escaleras.dir/Player.cpp.obj" "gcc" "CMakeFiles/Serpientes-Escaleras.dir/Player.cpp.obj.d"
+  "C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/Serpientes-Escaleras/snakes.cpp" "CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj" "gcc" "CMakeFiles/Serpientes-Escaleras.dir/snakes.cpp.obj.d"
   )
 
 # Targets to which this target links.
