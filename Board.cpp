@@ -22,7 +22,7 @@ void Board::printBoard() {
     }
 }
 
-char Board::getTipo(int index) {
+char Board::getType(int index) {
     return boxes[index];
 }
 

@@ -14,7 +14,7 @@ public:
     Board();
     ~Board() {};
     void printBoard();
-    char getTipo(int);
+    char getType(int);
 };
 
 

@@ -12,13 +12,14 @@
 class MyGame {
     int turn;
     Player players[2];
+    Player currentPlayer;
     int maxTurns;
+    Board board;
 public:
     MyGame();
     const int &getTurn() {return turn;}
     void setTurn(int turn) {this ->turn = turn;}
     void setMaxTurns(int maxTurns) {this ->maxTurns = maxTurns;}
-    void setPlayers();
     void newTurn();
 };
 

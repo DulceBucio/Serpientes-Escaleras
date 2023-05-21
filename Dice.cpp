@@ -8,7 +8,6 @@ using namespace std;
 
 int Dice::roll(){
     int facesNum = rand() % (faces - 1 + 1) + 1;
-    cout << facesNum;
     return facesNum;
 }
 
