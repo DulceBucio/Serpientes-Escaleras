@@ -12,6 +12,8 @@ MyGame::MyGame() {
     Board board;
     players[0].setPlayerNumber(1);
     players[1].setPlayerNumber(2);
+    players[0].setSquare(0);
+    players[1].setSquare(0);
 }
 
 
@@ -21,7 +23,7 @@ void MyGame::newTurn() {
     if (turn%2 == 1) {
         currentPlayer = players[0];
     }
-    if (turn%2 == 0) {
+    else if (turn%2 == 0) {
         currentPlayer = players[1];
     }
     int initialSquare = currentPlayer.getSquare();
@@ -34,9 +36,9 @@ void MyGame::newTurn() {
     if (currentType == 'L') {
         currentPlayer.setSquare(currentPlayer.getSquare()+3);
     }
+
     int finalSquare = currentPlayer.getSquare();
     cout << turn << " " << currentPlayer.getPlayerNumber() << " " << initialSquare << " " << currentDice << " " << currentType << " " << finalSquare << "\n";
-
-    turn++;
+    setTurn(getTurn()+1);
 }
 
